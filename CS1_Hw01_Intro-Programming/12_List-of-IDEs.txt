@@ -1,0 +1,60 @@
+This is an attempt to list the common features of some of the popular IDEs (as of 2015).
+
+Microsoft Visual Studio:
+ - developed by Microsoft
+ - runs exclusively on Windows OS
+ - multiple-language support: C, C++, C#, VB.NET, F#, Python (via plug-in), Ruby (via plug-in), HTML, CSS, JavaScript, XML...
+ - uses software development platforms: .NET, Windows API, Windows Forms, WPF, Windows Store, Silverlight
+ - integrates: code editor, GUI designer, compiler, debugger, platform emulators, properties editor, object browser...
+ - main features: IntelliSense (intelligent code completion), code refactoring, extensibility (plug-in system)...
+ - price: there exist many versions of the IDE such as paid, trial, free and educational
+ - closed-source
+
+Eclipse
+ - developed by Eclipse Foundation
+ - cross-platform support: Windows, Linux, Mac OS X, Solaris
+ - multiple-language support: Java; via plug-ins: Ada, C, C++, COBOL, Perl, PHP, Python, Ruby, Scala, Scheme...
+ - uses software development platforms: Java SE
+ - integrates: code editor, GUI designer, compiler, debugger...
+ - main features: code refactoring, extensibility (plug-in system), code-completion (via SDKs)...
+ - price: free software
+ - open-source
+
+MonoDevelop/Xamarin Studio
+ - developed by Xamarin and the Mono community
+ - cross-platform support: Windows, Linux, Mac OS X, FreeBSD, OpenBSD, Solaris
+ - multiple-language support: C, C++, C#, F#, Java, Python, Vala, VB.NET...
+ - uses software development platforms: Mono (Linux .NET realization), .NET
+ - integrates: code editor, GUI designer, compiler, debugger, class browser, properties editor
+ - main features: code-completion, version control, unit testing, packaging and deployment...
+ - price: free (except for iOS/Android development)
+ - open-source
+
+Net Beans
+ - developed by Oracle
+ - cross-platform support: Windows, Mac OS X, Linux, Solaris
+ - multiple-language support: Java, PHP, C, C++, HTML5, JavaScript, Ajax, CSS
+ - uses software development platforms: Java SE, JavaFX, Java EE, Java ME
+ - integrates: code editor, compiler, debugger, project explorer, GUI designer
+ - main features: extensibility, code-completion, code refactoring, version control
+ - price: free
+ - open-source
+
+Koding (online development environment/cloud coding platform)
+ - developed by Koding
+ - cross-platform support: 
+ - multiple-language support: Python, Java, Perl, Node.js, Ruby, C, C++, PHP, Go, Javascript, Coffeescript...
+ - uses software development platforms: web browser (locally), 
+ - integrates: online code editor, compiler (), debugger, built-in web browser (for testing), 
+ - main features: Linux-based virtual machine (terminal/box), syntax highlighting, hotkeys, code completion, code formatting, multiple cursors
+ - price: free
+ - open-source (the IDE)
+
+Used references:
+ - http://en.wikipedia.org/wiki/Microsoft_Visual_Studio
+ - http://en.wikipedia.org/wiki/Eclipse_(software)
+ - http://en.wikipedia.org/wiki/NetBeans
+ - http://en.wikipedia.org/wiki/MonoDevelop
+ - http://www.monodevelop.com/
+ - http://en.wikipedia.org/wiki/Koding
+ - https://koding.com/Features

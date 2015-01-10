@@ -1,0 +1,9 @@
+This is a brief description of the difference between C# and .NET Framework
+
+.NET is a software platform (virtual machine) aimed at development and execution of modern software applications, supporting wide variety of application types such as Web, Desktop, Mobile, Database.
+
+.NET is not a programming language, but its compiler supports a variety of programming languages. It's the engine that runs the program, written in a programming language such as C#. .NET can also manage the execution of a programs, but it can not write/program them itself.
+
+C# is new generation, high-level, object-oriented, general purpose, multi-paradigm programming language. It's not a platform. With C# one can write/program a modern application, but can not execute the application.
+
+The links between the C# language and the .NET Framework are FCL (Framework Class Library), CIL (Common Intermediate Language), CSC (the C# Compiler) and CLR (Common Language Runtime).

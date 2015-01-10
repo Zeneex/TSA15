@@ -1,0 +1,85 @@
+This list shows the major differences between the C# language and some of the most popular (as of 2015) programming languages.
+
+C language differs from C# in the following:
+ - procedural language
+ - low level language
+ - multi-platform*
+ - suitable for system programming
+ - compiled down to machine code
+ - suited for performance-critical applications
+ - small software development language
+ - unmanaged/uncontrolled at run-time
+ - its assemblies are non-portable
+ - doesn't use automatic memory management/"garbage collector" (memory leaks/"dirty" address space are common consequences)
+
+C++ language differs from C# in the following:
+ - procedural language
+ - low level language
+ - multi-platform*
+ - suitable for system programming
+ - suited for performance-critical applications
+ - compiled down to machine code (and to assembler as an option)
+ - unmanaged/uncontrolled at run-time
+ - its assemblies are non-portable
+ - doesn't use automatic memory management/"garbage collector" (memory leaks/'dirty' address space are common consequences)
+
+Java language differs from C# in the following:
+ - multi-platform*
+
+JavaScript language differs from C# in the following:
+ - scripting/interpreted language
+ - used in a web-based environment (in general)
+ - prototype-based (not class-based like C#)
+
+Visual Basic language differs from C# in the following:
+ - "End" keyword statement terminator (instead of "{}" for grouping statements)
+ - the boolean constant "True" evaluates to -1 (not to 1)
+ - syntactically based on BASIC (Microsoft) (not on C/?-derivatives)
+ - uniformity of logical and bit operators
+ - existence of the "Variant" value type
+ - character suffixes, which define the type of the variables (along with the type keywords)
+ - the variable type is defined AFTER its id/name (example: "Dim Name As String")
+ - poor support of object-oriented programming
+ - not suitable for performance-critical applications
+ - etc...
+
+PHP language differs from C# in the following:
+ - scripting/interpreted language
+ - server web content automation
+ - multi-platform*
+ - syntactically based on Perl
+ - the first fundamental step (taking part in the formation process of any programming language) is missing - the language design
+
+Perl language differs from C# in the following:
+ - scripting/interpreted language
+ - initially designed as a procedural language
+ - general usage language
+ - allows dynamical (at run-time) alteration of used classes
+ - multi-platform*
+
+Python language differs from C# in the following:
+ - interpreted language**
+ - allows dynamical (at run-time) alteration of used classes
+ - multi-platform*
+ - support of object-oriented programming is via add-on (not built-in OOP support)
+
+Ruby language differs from C# in the following:
+ - allows dynamical (at run-time) alteration of used classes
+ - multi-platform*
+ - interpreted language
+ 
+Notes:
+ * Here, multi-platform doesn't mean that C# has no variants for Linux and Mac OS (unofficial support!), instead it means that the given language has standard/official support for a variety of platforms (which has an important role in the implementation of the language)
+ ** Python has support for pre-interpretation on some of the most popular OSs, making the software portability possible without the need of a language interpreter to be present on the target OS.
+
+Used references:
+ - http://www.langpop.com/#normalized_results - listing of programming languages by popularity
+ - http://en.wikipedia.org/wiki/C_(programming_language)
+ - http://en.wikipedia.org/wiki/C++
+ - http://en.wikipedia.org/wiki/Java_(programming_language)
+ - http://en.wikipedia.org/wiki/JavaScript
+ - http://en.wikipedia.org/wiki/Visual_Basic
+ - http://en.wikipedia.org/wiki/PHP
+ - http://en.wikipedia.org/wiki/Perl
+ - http://en.wikipedia.org/wiki/Python_(programming_language)
+ - http://en.wikipedia.org/wiki/Ruby_(programming_language)
