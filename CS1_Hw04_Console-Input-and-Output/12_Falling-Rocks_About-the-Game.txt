@@ -1,0 +1,11 @@
+It was possible for me to accomplish such a task thanks to video lessons by Niki Kostov.
+I try to closely follow the structure and methods used in the lessons.
+Despite the step-by-step guidance, it's my first impact with a little more complicated code.
+The result is a mess - there is some things I try, which didn't work and have been replaced with others.
+However, my main goal here was to just make it work.
+Many code blocks can be rearranged/optimized, as there is many code repetitions.
+On many places there is hardcoded values/literals, which make the code hardly manageable.
+I only have time to debug it.
+Notes about the score/speed/difficulty:
+ - Play control can be released in many ways. Here I decide to calculate the score points as a result of number of "rocks" the player managed to get around.
+ - Speed and difficulty increase when a player is able to get to 30, 60, 90... rows of rocks avoided. The speed is based on the number of rows scrolled dawn the top - the more rows the faster the game becomes. As game become faster, the number of rows falling down increases faster, resulting in accelerating speed change (in the means of time). What would be more appropriate is the speed change to base on the constant time intervals, which would make the game more predictive/consistent/balanced than it is now.
