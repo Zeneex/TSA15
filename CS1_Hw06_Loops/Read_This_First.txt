@@ -1,0 +1,5 @@
+I have not much time to write user input validations and debug them. Be carefull and do not input invalid data - it will cause an exception and break of execution.
+
+The comments on the solutions are not very descriptive.
+
+You are free to cut my points for all the above reasons...
