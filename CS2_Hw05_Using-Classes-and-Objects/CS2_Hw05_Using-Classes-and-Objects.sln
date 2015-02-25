@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS2_Hw05_Using-Classes-and-Objects", "CS2_Hw05_Using-Classes-and-Objects\CS2_Hw05_Using-Classes-and-Objects.csproj", "{5353626D-B13C-46BB-923D-31B8ADD92599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Arithmetical-expressions", "07_Arithmetical-expressions\07_Arithmetical-expressions.csproj", "{7E76826C-86B9-47E3-85C7-583FBAB0653B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5353626D-B13C-46BB-923D-31B8ADD92599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5353626D-B13C-46BB-923D-31B8ADD92599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5353626D-B13C-46BB-923D-31B8ADD92599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5353626D-B13C-46BB-923D-31B8ADD92599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E76826C-86B9-47E3-85C7-583FBAB0653B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E76826C-86B9-47E3-85C7-583FBAB0653B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E76826C-86B9-47E3-85C7-583FBAB0653B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E76826C-86B9-47E3-85C7-583FBAB0653B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
