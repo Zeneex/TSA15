@@ -1,0 +1,51 @@
+Problem 1. Strings in C#.
+
+• Describe the strings in C#.
+
+In C# string is a primitive reference data type used to store textual data and to provide useful methods/interface for its easy and secure processing. Its .NET equivalent from the CTS is System.String class.
+The internal CLR string data type implementation uses an array structure of chars and stores the text as a sequence of chars.
+
+• What is typical for the string data type?
+
+1. In contrast to other programming languages wich use the null character ('0x00' or 'NUL' in ASCII) to signify the end of their strings, there is no null-terminating character at the end of a C# string; therefore a C# string can contain any number of embedded null characters ('\0').
+2. As a reference type, C# strings store their values (char array) in the memory heap while the string variables store only a reference to that heap structure as their actual variable value, which in turn resides in the program's execution stack. One string variable can hold a reference to one string value. When a value is no longer referenced by any variable (which usually happens when a variable loses its scope and "dies" or when its value is modified) its value still exists on the heap. The .NET Garbage Collector system takes care of all such remnant heap structures and automatically clears the heap, freeing up the space for new data.
+3. In C# string data type is immutable, meaning that it is not allowed to alter directly (in heap) while it is being processed. When a string is modified, the CLR actually allocates and returns a new string object in the memory and directs any assigned variable to that new string! This is important feature of the language - every re-allocation and re-referencing takes some time. When one modifies large number of strings or perform iterative modifications of a variable's value many number of times, the process gets a lot of time to complete leading to a low performance factor! There exists some ohter, more convenient ways to manipulate text "in-place" and one such method is to use the mutable StringBuilder type.
+4. Using the string constructor one can create a string from a char*, char[], or sbyte*. For example:
+	char[] letters = { 'A', 'B', 'C' };
+	string alphabet = new string(letters);		// alphabet == "ABC" now
+   Also, using a char* (pointers) one can create a string, directing to that address in the heap as the string's start point and can manipulate the string's value "in-place", overcoming the immutability restriction (however, it must be done under "unsafe" context)
+5. A string variable can be initialized with a regular or with a verbatim string literals:
+	string str1 = "some \"cool\" string";		// regular
+	string str2 = @"some ""cool"" string";		// verbatim
+6. C# strings support character escape sequences like "\0" (NUL), "\\" (\), "\b" (BACKSPACE), "\n" (NEW LINE), "\r" (CARRIAGE RETURN), etc.
+
+• Describe the most important methods of the String class.
+
+Note: The presence of leading "i" means that the method mentioned is Instance method and its absence indicates that the method is a Static one (in which case the method call must be qualified with its class name in front).
+
+i.Split(params char[], no_nulls)
+		splits a string to substrings regarding the given delimiter(s), dropping/preserving the empty matches
+i.Equals(str) / Equals(str, str)
+		same as '==' operator; checks wether two string values are eq.; returns 'true' if eq., 'false' otherwise
+Compare(str, str, case)
+		compares two string values lexicographically, regarding/ignoring the letter case
+i.CompareTo(str)
+		compares two string values lexicographically by applying the culture-specific text comparison rules
+ToCharArray(str)
+		converts a string to its char array representation
+Concat(str, str)
+		concatenates two given strings in order given: first string first, second string following
+i.IndexOf(str, index)
+		searches for the given string in this string, begining at the index specified and moving right; returns first match
+i.LastIndexOf(str, index)
+		searches for the given string in this string, begining at the index specified and moving left
+i.Substring(index, len)
+		removes everything before the index and returns the remainder substring, using the specified length
+i.Replace(ch / str, ch / str)
+		replace the first given char/string with the secind given char/string
+i.Remove(index, len)
+		removes the substring, starting at the given index and containing 'len' chars
+i.ToLower() / i.ToUpper()
+		alters the letter case of this string to lower/upper respectively
+i.TrimStart() / i.TrimEnd() / i.Trim()
+		trims leading/trailing/both whitespaces (incl. new lines) in this string value
