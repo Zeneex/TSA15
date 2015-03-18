@@ -19,9 +19,6 @@ bld/
 [Bb]in/
 [Oo]bj/
 
-# Build results (additional)
-[Pp]roperties/
-
 # Roslyn cache directories
 *.ide/
 
